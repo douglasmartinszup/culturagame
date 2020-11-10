@@ -48,16 +48,35 @@ p{
   width: 34.5rem;
 }
 
-.btn-sair{
+.btn-exit{
 
   background-color: #EF4123;
   width: 17%;
 }
 
-.sair{
+.btn-continue{
+
+  background-color: hsl(85, 54%, 51%);
+  text-align: center;
+  width: 22%;
+}
+
+.exit{
   text-align: center;
   margin-top: 5%;
   margin-bottom: -1rem;
+}
+
+.space{
+
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+
+.btn-group-next{
+
+  margin-top: 2rem;
+  text-align: center;
 }
 
 .card-img-top{
