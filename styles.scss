@@ -45,10 +45,20 @@ p{
   border-color:#0E1A33;
 }
 
+.container-result{
+
+  width: 56rem;
+}
+
 .card-img-top{
 
   width: 34rem;
   align-self: center;
+}
+
+.card-img-result{
+
+  width: 40rem;
 }
 
 .btn-exit{
@@ -57,11 +67,22 @@ p{
   width: 17%;
 }
 
+.btn-exit:hover{
+
+  background-color: #cc2b0f;
+}
+
 .btn-continue{
 
-  background-color: hsl(85, 54%, 51%);
+  background-color: #8dc63f;
   text-align: center;
   width: 22%;
+}
+
+.btn-continue:hover{
+
+  color: #F6F7F8;
+  background-color: #71a130;
 }
 
 .exit{
@@ -79,7 +100,7 @@ p{
 
 .btn-group-next{
 
-  margin-top: 2rem;
+  margin-top: 1rem;
   text-align: center;
 }
 
@@ -122,4 +143,9 @@ p{
   padding-bottom: 2%;
 
   width: 60%;
+}
+
+.btn-info:hover{
+
+  background-color: #05627a;
 }
