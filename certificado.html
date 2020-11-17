@@ -1,29 +1,49 @@
 <html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
-    </head>
-<title>
-    Cultura Game - Certificado
-</title>
-<body>
-    <p>
-        <img src="imgs/certificado1.png" class="d-block w-50" alt="400">
-    </p>
-    
-    <p>
-        <input type="text" name="nome" value="" placeholder="Seu Nome" />
-    </p>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="../styles.scss">
+    <link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <title>Cultura Game - Certificado</title>
+  <body>
+    <div id="certificado">
+      <img src="imgs/LogoRGB-08.png" width="350" height="180" aling="center">
+     
+      <h1 class="certif_title">Certificado </h1>
+      <p>
 
-    <p>
-        <img src="imgs/certificado2.png" class="d-block w-50" alt="400">
-    </p>
+        <h6 class="certif_description">Com  orgulho  certificamos  que </h6>
+        <center>
+        <input  class="imput_name" type="text" name="nome" value="" placeholder=' "digite seu nome aqui"'/>
+        
+      </center>
+        <h6 class="certif_description"> sabe  muito  sobre  cultura  e  está </h6>
+        <h3 class="certif_description_autorized">autorizado a disseminar cultura </h3>
+        <h6 class="certif_description">para todos os zuppers!</h6>
+      </p>
+     
+      <img src="imgs/background.png" width="150" height="150" align="right" >
+      
+      <a href="home.html" class="btn btn-danger">Sair</a>
+      
+      <button  class="btn btn-primary" value="Imprimir" type="button" onclick="print()">
+        Emitir certificado
+      </button>
     
-    <p>
-        <a href="home.html" class="btn btn-danger">Sair</a>
-    </p>
-</body>
+    </div>
 
+    
+  </body>
 </html>
