@@ -13,7 +13,7 @@
 <body>
   <div class="card container container-result">
     <p class="card-title result-title">Acertou!</p>
-    <img class="card-img-top card-img-result" src="../OsPilaresDaCultura/ForaDaCurva/curvaC.png" alt="Imagem do card acertou">
+    <img onmouseover="teste.play()" class="card-img-top card-img-result" src="../OsPilaresDaCultura/ForaDaCurva/curvaC.png" alt="Imagem do card acertou">
     <div class="card-body btn-group-next">
       <p>
         <a href="../home.html" class="btn btn-danger btn-exit">Sair</a>
@@ -21,6 +21,10 @@
         <a href="../Perguntas/pergunta13.html" class="btn btn-continue">Continuar</a>
       </p>
     </div>
+    <script>
+      var teste = new Audio();
+      teste.src = 'https://www.soundjay.com/human/sounds/applause-01.mp3';
+      </script>
   </div>
 </body>
 </html>
