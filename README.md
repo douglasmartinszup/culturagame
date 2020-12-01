@@ -8,7 +8,7 @@ Jogo de Perguntas e Respostas para que o Zupper possa compreender ainda mais o q
 
 # Desenvolvedores 
 
-Doug Caval
+Doug Caval /
 Wanessa Ribeiro
 
 

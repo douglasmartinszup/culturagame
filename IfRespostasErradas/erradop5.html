@@ -13,7 +13,7 @@
 <body>
   <div class="card container container-result">
     <p class="card-title result-title">Tente novamente</p>
-    <img class="card-img-top card-img-result" src="../OsPilaresDaCultura/ErreOndeNinguemErrou/ondeninguemerrouR.png" alt="Imagem do card tente novamente">
+    <img onmouseover="teste.play()" class="card-img-top card-img-result" src="../OsPilaresDaCultura/ErreOndeNinguemErrou/ondeninguemerrouR.png" alt="Imagem do card tente novamente">
     <img class="card-img-top card-img-result" src="../OsPilaresDaCultura/ErreOndeNinguemErrou/TemplateErreOndeNinguemErrou.jpeg" alt="Card sobre o pilar Erre Onde Ninguém Errou">
     <div class="card-body btn-group-next">
       <p>
@@ -22,6 +22,10 @@
         <a href="../Perguntas/pergunta5.html" class="btn btn-continue">Tentar novamente</a>
       </p>
     </div>
+    <script>
+      var teste = new Audio();
+      teste.src = 'https://www.soundjay.com/misc/sounds/fail-trombone-01.mp3';
+      </script>
   </div>
 </body>
 </html>
