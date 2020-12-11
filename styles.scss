@@ -9,6 +9,13 @@ p {
   color: #8dc63f;
 }
 
+.flexbox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
 .btn {
   color: #f6f7f8;
   font-family: "Dosis", sans-serif;
@@ -48,6 +55,17 @@ p {
   width: 76rem;
 }
 
+.container-certificate{
+  width: 76rem;
+  background-color: #f6f7f8;
+  background-image: none;
+  p{
+    color: #cc2b0f;
+    font-family: "Lato", sans-serif;
+    font-size: 220%;
+  }
+}
+
 .card-img-top {
   width: 34rem;
   align-self: center;
@@ -59,6 +77,10 @@ p {
 
 .card-img-congrats {
   width: 58rem;
+}
+
+.card-img-certificate {
+  width: 14rem;
 }
 
 .btn-exit {
@@ -111,6 +133,7 @@ p {
   border-radius: 20px;
   border-width: 1%;
 }
+
 .style-line {
   width: 90px;
   height: 4px;
@@ -154,6 +177,36 @@ p {
   font-size: 450%;
 }
 
+.certificate-title{
+  color: #0e1a33;
+  text-transform: uppercase;
+
+  font-weight: bold;
+  font-family: "Dosis", sans-serif;
+  font-size: 350%;
+
+  margin-bottom: 10%;
+}
+
+.certificate-subtitle-caps{
+  color: #0e1a33;
+  text-transform: uppercase;
+
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+  font-size: 130%;
+  margin: 0;
+}
+
+.certificate-subtitle{
+  color: #0e1a33;
+
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+  font-size: 130%;
+  margin: 0;
+}
+
 .btn-congrats {
   font-size: 120%;
   padding: 0.5rem;
@@ -168,84 +221,16 @@ p {
   width: 60%;
 }
 
-.btn-cartoons {
-  width: 100px;
-  height: 30px;
-  
-}
-
-.btn-info:hover {
-  background-color: #05627a;
-}
-
-.certif_title {
-  text-align: center;
-  font-family: dosis ,sans-serif;
-  font-size: 100px;
-  color: #f6f7f8;
-  letter-spacing: 25px;
-  font-weight: bold;
-}
-
-.certif_description {
-  text-align: center;
-  font-family: dosis ,sans-serif;
-  font-size: 60px;
-  color: #f6f7f8;
-  letter-spacing: 5px;
-}
-
-
-.certif_description_autorized {
-  text-align: center;
-  font-family: dosis ,sans-serif;
-  font-size: 60px;
-  color: #0ab118;
-}
-
-.imput_name {
-  width: 800px;
-  height: 100px;
-  font-size: 80px;
-  opacity: 1;
-  justify-content: center;
-  border-radius: 10px;
+.certificate-textfield{
   background-color: transparent;
-  border: none;
-  font-family: dosis ,sans-serif;
-  color: #ffffff;
+  color: #0e1a33;
+  border: hidden;
+
+  font-family: "Lato", sans-serif;
+  font-size: 300%;
   text-align: center;
- 
-  
+
+  margin: 0;
+  padding: 0;
+  padding-top: -0.5px;
 }
-.container2 {
-  width: 800px;
-  height: 500px;
-  background: #0c172e;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  }
-  .box {
-  width: 300px;
-  height: 300px;
-  background:transparent;
-  }
-
-
-  .card-title2 {
-    text-transform: uppercase;
-    font-family: "Dosis", sans-serif;
-    font-weight: bold;
-    color: #021c36;
-    font-size: 100px;
-  
-    margin-bottom: 5%;
-  }
-
-
-  .text_card {
-    font-size: 36px;
-  }

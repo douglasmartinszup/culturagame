@@ -1,13 +1,27 @@
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <link rel="stylesheet" href="../styles.scss">
-    <link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet'>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="styles.scss">
+  <link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+<<<<<< add-styles
+</head>
+<title>
+  Cultura Game - Certificado
+</title>
+<body>
+  <div class="container container-certificate">
+    <div class="flexbox">
+      <img class="card-img-top card-img-certificate" src="imgs/LogoRGB-08.png">
+      <h1 class="certificate-title">- Certificado -</h1>
+      <p class="certificate-subtitle-caps">Com orgulho certificamos que</p>
+      <input class="certificate-textfield" type="text" name="nome" value="" placeholder="digite seu nome aqui"/>
+      <p class="certificate-subtitle-caps">Sabe muito sobre os pilares de cultura da Zup</p>
+      <p class="certificate-subtitle">e tem autorização de dividir esses pilares</p>
+      <p class="certificate-subtitle">com todos os outros Zuppers!</p>
+=======
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -43,8 +57,13 @@
         Emitir certificado
       </button>
     
+>>>>>> main
     </div>
-
-    
-  </body>
+    <div class="btn-group-congrats">
+      <button  class="btn btn-continue" value="Imprimir" type="button" onclick="print()">Emitir certificado</button>
+      <a class="space"></a>
+      <a href="home.html" class="btn btn-exit">Sair</a>
+    </div>
+  </div>
+</body>
 </html>
