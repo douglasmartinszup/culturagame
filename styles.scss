@@ -47,6 +47,13 @@ p {
   border-color: #0e1a33;
 }
 
+.container-index{
+  background-color: #f6f7f8;
+  background-image: none;
+  width: 36rem;
+  text-align: center;
+}
+
 .container-result {
   width: 56rem;
 }
@@ -155,6 +162,22 @@ p {
   margin-bottom: 5%;
 }
 
+.index-title{
+  color: #0e1a33;
+
+  font-weight: bold;
+  font-family: "Dosis", sans-serif;
+  font-size: 300%;
+}
+
+.index-subtitle{
+  color: #0e1a33;
+
+  font-weight: bold;
+  font-family: "Dosis", sans-serif;
+  font-size: 150%;
+}
+
 .result-title {
   background-color: #0e1a33;
   background-image: url("imgs/background2.png");
@@ -163,7 +186,6 @@ p {
   background-size: 40%;
 
   color: #f6f7f8;
-  //font-family: 'Lato', sans-serif;
 
   font-weight: bold;
   text-align: center;
